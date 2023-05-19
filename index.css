@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.error{
+    background-color: red;
+    height: 40px;
+    width: 100%;
+    border-radius: 0 0 5px 5px   ;
+    display: flex;
+    justify-content: center;
+    transition: all 0.2s ;
+    opacity: 0;
+    display: none;
+}
+
+
+.form{
+    width: 100%;
+}
+
+body{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+    background: #212b66;
+}
+
+.content{
+    margin-top: 150px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+p{
+    font-size: 18px;
+}
+
+.stylebtn{
+    height: 45px;
+    width: 350px;
+    color: white;
+    background: #05a532;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.registrarBtn{
+    
+    background: #007de4;
+}
+
+.btn1{
+    opacity: 0.5;
+}
+.btn2{
+    opacity: 0.5;
+}
+
+input{
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    height: 45px;
+    width: 350px;
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .error{
+        width: 70%;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+    
+    h1{
+        font-size: 5rem;
+    }
+    
+    .content{
+        margin-top: 150px;
+        width: 100%;
+    }
+    
+    input{
+        height: 65px;
+        width: 70%;
+        margin-top: 15px;
+        font-size: 1.5rem;
+    }
+    
+    .stylebtn{
+        font-size: 1.5rem;
+        height: 65px;
+        width: 70%;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    p{
+        font-size: 1.5rem;
+        }
+        
+        h1{
+            font-size: 2.5rem;
+        }
+        input{
+            height: 65px;
+            width: 50%;
+            margin-top: 15px;
+            font-size: 1.5rem;
+        }
+
+        .error{
+            width: 50%;
+        }
+        
+        .stylebtn{
+            font-size: 1.2rem;
+            height: 65px;
+            width: 50%;
+            color: white;
+        }
+        .content{
+            margin-top: 200px;
+            width: 60%;
+        }
+    }
